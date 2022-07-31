@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            android:paddingBottom="50dp">
+
+            <ImageView
+                android:id="@+id/iv_dark_mode"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_dark_mode" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_user_dummy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johe Deo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johe.deo@example.com" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/btn_yellow_background"
+                android:text="@string/btn_upgate_to_pro"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_gray_background"
+                android:drawableLeft="@android:drawable/checkbox_off_background"
+                android:drawableRight="@android:drawable/checkbox_off_background"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/btn_privacy"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_gray_background"
+                android:drawableLeft="@android:drawable/checkbox_off_background"
+                android:drawableRight="@android:drawable/checkbox_off_background"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/btn_purchase_history"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_gray_background"
+                android:drawableLeft="@android:drawable/checkbox_off_background"
+                android:drawableRight="@android:drawable/checkbox_off_background"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/btn_help"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_gray_background"
+                android:drawableLeft="@android:drawable/checkbox_off_background"
+                android:drawableRight="@android:drawable/checkbox_off_background"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/btn_setting"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_gray_background"
+                android:drawableLeft="@android:drawable/checkbox_off_background"
+                android:drawableRight="@android:drawable/checkbox_off_background"
+                android:drawablePadding="15dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/btn_invite_friend"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_black_background"
+                android:text="@string/btn_logout"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_marginEnd="@dimen/fab_margin"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
